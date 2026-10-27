@@ -1,0 +1,35 @@
+INSERT INTO public.jobs (
+  client_id,
+  title,
+  description,
+  category,
+  budget_ngn,
+  location_label,
+  latitude,
+  longitude,
+  urgent
+)
+VALUES
+  ('20000000-0000-0000-0000-000000000001', 'Corporate office deep clean', 'Full floor cleaning before 8am Monday.', 'cleaning', 38000, 'Lagos Island', 6.524400, 3.379200, true),
+  ('20000000-0000-0000-0000-000000000001', 'Same-day legal document dispatch', 'Pick up from Marina and deliver to Ikeja today.', 'delivery', 18000, 'Marina', 6.450600, 3.394100, true),
+  ('20000000-0000-0000-0000-000000000001', 'Event photographer for launch', '3-hour product launch coverage with edited highlights.', 'creative', 70000, 'Victoria Island', 6.428100, 3.421600, false),
+  ('20000000-0000-0000-0000-000000000001', 'Mount 65-inch TV and soundbar', 'Wall already reinforced, tools preferred.', 'handyman', 28000, 'Lekki Phase 1', 6.447400, 3.473200, false),
+  ('20000000-0000-0000-0000-000000000001', 'Urgent socket rewiring', 'Two outlets tripping in apartment.', 'electrical', 32000, 'Ikoyi', 6.450000, 3.435000, true),
+  ('20000000-0000-0000-0000-000000000001', 'Weekend short-let turnover clean', 'Beds, bathroom, floor, and laundry turnaround.', 'cleaning', 24000, 'Epe', 6.524800, 3.749200, false),
+  ('20000000-0000-0000-0000-000000000002', 'Generator technician needed', 'Troubleshoot startup issue at mini mart.', 'electrical', 45000, 'Port Harcourt', 4.815600, 7.049800, true),
+  ('20000000-0000-0000-0000-000000000002', 'Bulk parcel bike delivery', 'Eight drop-offs across GRA and Trans Amadi.', 'delivery', 29000, 'Port Harcourt', 4.815600, 7.049800, false),
+  ('20000000-0000-0000-0000-000000000002', 'Water pump plumbing fix', 'Pressure is low and outlet is leaking.', 'plumbing', 26000, 'Benin City', 6.335000, 5.603700, false),
+  ('20000000-0000-0000-0000-000000000002', 'Moving help for one-bedroom flat', 'Need two strong movers and loading support.', 'moving', 42000, 'Uyo', 5.043300, 7.912000, true),
+  ('20000000-0000-0000-0000-000000000002', 'Church event video recap', 'Capture service and deliver a short recap reel.', 'creative', 55000, 'Calabar', 4.958900, 8.326900, false),
+  ('20000000-0000-0000-0000-000000000002', 'Estate gate welding and repair', 'Minor frame alignment and hinge reinforcement.', 'handyman', 34000, 'Owerri', 5.532000, 7.486000, false),
+  ('20000000-0000-0000-0000-000000000003', 'Warehouse inventory support', 'One-day helper for stock sorting and labelling.', 'moving', 31000, 'Kano', 12.002200, 8.592000, false),
+  ('20000000-0000-0000-0000-000000000003', 'Restaurant fryer electrical check', 'Power trips when fryer is turned on.', 'electrical', 36000, 'Kaduna', 10.510500, 7.416500, true),
+  ('20000000-0000-0000-0000-000000000003', 'Campus hostel cleaning squad', 'Two-person team for post-semester cleanup.', 'cleaning', 27000, 'Jos', 9.896500, 8.858300, false),
+  ('20000000-0000-0000-0000-000000000003', 'Pop-up market runner', 'Move products between stalls through the day.', 'delivery', 17000, 'Ilorin', 8.496600, 4.542100, false),
+  ('20000000-0000-0000-0000-000000000003', 'Boutique content shoot', 'Lifestyle photos and quick edits for Instagram.', 'creative', 48000, 'Abuja', 9.076500, 7.398600, false),
+  ('20000000-0000-0000-0000-000000000003', 'Kitchen sink leak repair', 'Leak under cabinet causing wet floor.', 'plumbing', 23000, 'Abuja', 9.076500, 7.398600, true),
+  ('20000000-0000-0000-0000-000000000003', 'Courier route for fashion orders', 'Four same-day deliveries around town.', 'delivery', 22000, 'Enugu', 6.440200, 7.494300, false),
+  ('20000000-0000-0000-0000-000000000003', 'Retail shelving assembly', 'Assemble and align six display shelves.', 'handyman', 30000, 'Ibadan', 7.377500, 3.947000, false),
+  ('20000000-0000-0000-0000-000000000001', 'Weekend wedding setup crew', 'Decor carry-in and hall setup support.', 'moving', 52000, 'Onitsha', 6.210400, 7.074100, true),
+  ('20000000-0000-0000-0000-000000000002', 'Mini apartment repaint touch-up', 'Light patching and white overcoat refresh.', 'handyman', 39000, 'Osogbo', 7.771000, 4.556900, false)
+;

@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local credentials and non-project artifacts
+.env*
+!.env.example
+!.env.sample
+/seed.txt
+/List of KRA Clients2.docx
+/workspace-backup.tar.gz
+/src/assets/Git-2.55.0.3-64-bit.exe
+/supabase/.temp/
